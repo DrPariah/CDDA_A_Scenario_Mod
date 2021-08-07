@@ -10,7 +10,8 @@
       { "point": [ 1, 1, 0 ], "overmap": "实验室右下_north" },
       { "point": [ -1, 0, 0 ], "overmap": "实验室左上_north" },
       { "point": [ -1, 1, 0 ], "overmap": "实验室左下_north" },
-      { "point": [ 1, -1, 0 ], "overmap": "实验室牢房_north" }
+      { "point": [ 1, -1, 0 ], "overmap": "实验室牢房_north" },
+      { "point": [ 1, 1, -1 ], "overmap": "实验室右下0_north" }
     ],
     "locations": [ "wilderness","forest" ],
     "city_distance": [ 10, 5 ],
@@ -34,6 +35,14 @@
     "sym": "α",
     "color": "i_red",
     "see_cost": 5
+},
+{
+  "id": "实验室右下0",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
 },
 {
     "id": "实验室右上",
@@ -232,6 +241,14 @@
     "furniture": {
       "t": [ [ "f_sandbag_half", 3 ], [ "f_null", 1 ] ]
                 }
+  },
+  {
+    "type": "palette",
+    "id": "地下车库",
+    "terrain": {
+      "f": "t_metal_floor",
+      "w": "t_wall_metal"
+    }
   },
   {
     "type": "mapgen",
@@ -729,5 +746,42 @@
             { "item": "mutant_bug_organs", "x": 19, "y":7, "amount": 1 }
           ]
         }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": ["实验室右下0"],
+    "weight": 100,
+    "object": 
+    {
+      "rows": 
+      [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+      "palettes": [ "地下车库" ]
+    }
   }
 ]
