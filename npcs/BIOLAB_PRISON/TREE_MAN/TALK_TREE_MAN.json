@@ -1,0 +1,55 @@
+[
+  {
+    "id": "TALK_TREE_MAN1",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "npc_has_trait":  "NPC_first_met",
+      "yes": "我感觉好多了，谢谢你。",
+      "no": "\n——你醒了？我还以为你会一直睡，直到死在梦里。\n<color_blue>（这家伙像一颗扎根的树，根系交错并深入湿泥土中，凹凸不平的藤条缠绕在树干一路向上）\n（……最后，贴在类人型的腰肢上）</color>"
+    },
+    "responses": [
+      {
+        "text": "这是个……什么东西！",
+        "condition": { "not": { "npc_has_trait": "NPC_first_met" } },
+        "effect": [
+          { "npc_add_trait": "NPC_first_met" },
+          { "npc_add_var": "favor", "type": "general", "context": "favor", "value": "0" }
+        ],
+        "topic": "TALK_TREE_MAN_START1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_TREE_MAN_START1",
+    "type": "talk_topic",
+    "dynamic_line": "<color_blue>\n（这个人！）\n（不对！）\n（这已经不算是人了，用怪物这种让人毛骨悚然的词来形容十分贴切）\n（这是一个，上半身是人类模样，但下半身是树的怪物）\n（是的，他还有着人类的相貌，有人类的手臂，会发出人类的声音，只是没人会把他和人类联系在一起）</color>",
+    "responses": [
+      {
+        "text": "……",
+        "topic": "TALK_TREE_MAN_START2"
+      }
+    ]
+  },
+  {
+    "id": "TALK_TREE_MAN_START2",
+    "type": "talk_topic",
+    "dynamic_line": "<color_blue>\n（你脑海中冒出不少恐怖向情节）\n（怪物、食人、屠宰场、两脚羊……）\n（冷汗和恐惧爬满你脸颊——）</color>",
+    "responses": [
+      {
+        "text": "树……树成精了！怪物！",
+        "topic": "TALK_TREE_MAN_START3"
+      }
+    ]
+  },
+  {
+    "id": "TALK_TREE_MAN_START3",
+    "type": "talk_topic",
+    "dynamic_line": "\n——放你奶奶的屁，说话尊重点臭小子。\n（树人啐了一声，说话时明显有了火气，就连音调也大了不少）\n——老子是人！活生生的人！你特么才是怪物，你全家都是怪物。",
+    "responses": [
+      {
+        "text": "……",
+        "topic": "TALK_DONE"
+      }
+    ]
+  }
+]

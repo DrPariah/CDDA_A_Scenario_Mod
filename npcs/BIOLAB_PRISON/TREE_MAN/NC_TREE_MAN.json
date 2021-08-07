@@ -1,0 +1,25 @@
+[
+  {
+    "id": "NC_TREE_MAN_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_shorts" },
+      { "item": "subsuit_xl" }
+    ]
+  },
+  {
+    "id": "NC_TREE_MAN_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "generator_NARRATOR_START" } ]
+  },
+  {
+    "id": "NC_TREE_MAN_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bandages" }
+    ]
+  }
+]

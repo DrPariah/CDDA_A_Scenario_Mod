@@ -1,0 +1,27 @@
+[
+  {
+    "type": "profession",
+    "id": "char_plot_mod",
+    "name": "剧情mod开局人物",
+    "description": "剧情mod开局人物",
+    "points": 0,
+    "items": {
+      "both": [
+        "longshirt",
+        "shorts_cargo",
+        "backpack",
+        "slippers"
+      ],
+      "male": [
+        "briefs"
+      ],
+      "female": [
+        "bra",
+        "panties"
+      ]
+    },
+    "flags": [
+      "SCEN_ONLY"
+    ]
+  }
+]

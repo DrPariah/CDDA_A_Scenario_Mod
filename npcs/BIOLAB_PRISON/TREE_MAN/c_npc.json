@@ -1,0 +1,48 @@
+[
+  {
+    "type": "npc",
+    "id": "TREE_MAN",
+    "name_unique": "待取名",
+    "name_suffix": "树人",
+    "gender": "male",
+    "class": "NC_TREE_MAN",
+    "attitude": 1,
+    "mission": 7,
+    "chat": "TALK_TREE_MAN1"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_TREE_MAN",
+    "name": "树人",
+    "job_description": "",
+    "common": false,
+    "bonus_str": { "rng": [ 0, 0 ] },
+    "bonus_dex": { "rng": [ 1, 1 ] },
+    "bonus_int": { "rng": [ 1, 1 ] },
+    "bonus_per": { "rng": [ 1, 1 ] },
+    "skills": [
+      { "skill": "computer", "level": { "rng": [ 3, 3 ] } },
+      { "skill": "driving", "level": { "rng": [ 2, 2 ] } },
+      { "skill": "fabrication", "level": { "rng": [ 3, 3 ] } },
+      { "skill": "firstaid", "level": { "rng": [ 1, 1 ] } },
+      { "skill": "survival", "level": { "rng": [ 2, 2 ] } },
+      { "skill": "swimming", "level": { "rng": [ 2, 2 ] } },
+      { "skill": "archery", "level": { "rng": [ 5, 5 ] } },
+      { "skill": "dodge", "level": { "rng": [ 0, 4 ] } }
+    ],
+    "worn_override": "NC_TREE_MAN_worn",
+    "carry_override": "NC_TREE_MAN_carry",
+    "weapon_override": "NC_TREE_MAN_weapon",
+    "traits": [
+      [ "hair_white_long", 100 ],
+      [ "SKIN_LIGHT", 100 ],
+      [ "NIGHTVISION", 100 ],
+      [ "LIGHTSTEP", 100 ],
+      [ "WEAKSCENT", 100 ],
+      [ "THRESH_PLANT", 100 ],
+      [ "LEAVES3", 100 ],
+      [ "HAIRROOTS", 100 ],
+      [ "BARK", 100 ]
+    ]
+  }
+]

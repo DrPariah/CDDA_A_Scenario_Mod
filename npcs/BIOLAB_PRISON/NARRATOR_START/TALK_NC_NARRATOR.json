@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TALK_NARRATOR_START1",
+    "type": "talk_topic",
+    "dynamic_line":  "\n（这一切的一切都让人浑身不适，头昏脑涨。）\n（呕吐感涌上咽喉，你忍不住吐了出来，可惜空荡的胃里吐不出什么东西，只能发出一阵阵干呕……）" ,
+    "responses": [ { "text": "……", "topic": "TALK_NARRATOR_START2" } ]
+  },
+  {
+    "id": "TALK_NARRATOR_START2",
+    "type": "talk_topic",
+    "dynamic_line":  "\n（等到呕吐感消退，你松了一口气。）\n（同时你也很快意识到，这样的环境绝不是什么好地方。）" ,
+    "responses": [ { "text": "……", "topic": "TALK_NARRATOR_START3" } ]
+  },
+  {
+    "id": "TALK_NARRATOR_START3",
+    "type": "talk_topic",
+    "dynamic_line":  "\n——你醒了？我还以为你会一直睡，直到死在梦里。\n（干哑的嗓音从背后传来，吓了你一跳。）" ,
+    "responses": [ { "text": "……谁？", "topic": "TALK_NARRATOR_START4" } ]
+  },
+  {
+    "id": "TALK_NARRATOR_START4",
+    "type": "talk_topic",
+    "dynamic_line":  "\n（随着瞳孔逐渐适应黑暗，周围的环境愈发清晰。）\n（你回头过试图寻找声音来源，很快就在斜后方发现一个不同寻常的东西……）" ,
+    "responses": [ { "text": "（循声看去）", "topic": "TALK_DONE" } ]
+  }
+]

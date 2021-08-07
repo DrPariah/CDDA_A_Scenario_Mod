@@ -1,0 +1,21 @@
+[
+  {
+    "type": "scenario",
+    "name": "剧情模式开局1",
+    "description": "你张开双眼，从昏睡中醒来，却发现被置于深暗的牢狱当中，在你身旁，似乎有另一个奇怪的被困者……",
+    "flags": [
+      "LONE_START",
+      "SUR_START",
+      "SUM_START"
+    ],
+    "id": "scen_plot_mod",
+    "points": 0,
+    "start_name": "剧情模式开局1",
+    "allowed_locs": [
+      "sloc_house"
+    ],
+    "professions": [
+      "char_plot_mod"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "type": "start_location",
+    "id": "location_plot_mod_lab",
+    "name": "剧情mod实验室",
+    "terrain": [ "plot_mod_实验室牢房" ]
+  }
+]

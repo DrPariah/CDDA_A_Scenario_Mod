@@ -1,0 +1,21 @@
+[
+  {
+    "type": "scenario",
+    "name": "剧情mod测试开局",
+    "description": "剧情mod测试开局",
+    "flags": [
+      "LONE_START",
+      "SUR_START",
+      "SUM_START"
+    ],
+    "id": "scen_plot_mod",
+    "points": 0,
+    "start_name": "剧情mod测试开局",
+    "allowed_locs": [
+      "location_plot_mod_lab"
+    ],
+    "professions": [
+      "char_plot_mod"
+    ]
+  }
+]

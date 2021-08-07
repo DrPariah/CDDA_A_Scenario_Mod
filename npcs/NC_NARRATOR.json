@@ -1,0 +1,20 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_NARRATOR",
+    "name": "旁白",
+    "job_description": "",
+    "common": false,
+    "bonus_str": { "rng": [ 0, 0 ] },
+    "bonus_dex": { "rng": [ 1, 1 ] },
+    "bonus_int": { "rng": [ 1, 1 ] },
+    "bonus_per": { "rng": [ -10, -10 ] },
+    "worn_override": "NC_NARRATOR_START_worn",
+    "carry_override": "NC_NARRATOR_START_carry",
+    "weapon_override": "NC_NARRATOR_START_weapon",
+    "traits": [
+      [ "NARRATOR_CLAIRVOYANCE", 100 ],
+      [ "MYOPIC", 100 ]
+    ]
+  }
+]

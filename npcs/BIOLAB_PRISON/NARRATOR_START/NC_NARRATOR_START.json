@@ -1,0 +1,25 @@
+[
+  {
+    "id": "NC_NARRATOR_START_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_shorts" },
+      { "item": "subsuit_xl" }
+    ]
+  },
+  {
+    "id": "NC_NARRATOR_START_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "stick_long" } ]
+  },
+  {
+    "id": "NC_NARRATOR_START_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bandages" }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "generator_NARRATOR_START",
+    "type": "AMMO",
+    "symbol": ";",
+    "ammo_type": "NULL",
+    "color": "light_gray",
+    "name": {"str": "待取名，旁白"},
+    "description": "这是个虚假物品。",
+    "drop_action": {
+	   "type": "place_npc",
+	   "npc_class_id": "NARRATOR_START",
+	   "summon_msg": "在你毫无意识的情况下，有人悄然接近了你……",
+	   "place_randomly": true,
+	   "moves": 1
+	},
+	"phase": "liquid",
+	"flags": [ "ZERO_WEIGHT" ],
+    "volume": "0 ml"
+  },
+  {
+    "id": "mon_p_npc_NARRATOR_START",
+    "type": "MONSTER",
+    "looks_like": "mon_hologram",
+    "name": "待取名，旁白",
+    "description": ".",
+    "default_faction": "factionless",
+    "species": [ "UNKNOWN" ],
+    "volume": "1 ml",
+    "weight": 1,
+    "hp": 1,
+    "speed": 500,
+    "symbol": "#",
+    "color": "cyan",
+    "aggression": -99,
+    "morale": 2,
+    "luminance": 0,
+    "dodge": 0,
+    "harvest": "exempt",
+    "fear_triggers": [ "PLAYER_CLOSE" ],
+    "special_attacks": [ [ "DISAPPEAR", 0 ] ],
+    "death_function": [ "DISAPPEAR" ],
+	"death_drops": "mon_p_npc_ig_NARRATOR_START",
+    "flags": [ "FLIES", "NO_BREATHE", "NOT_HALLUCINATION", "HARDTOSHOOT" ]
+  },
+  {
+    "id": "mon_p_npc_ig_NARRATOR_START",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "generator_NARRATOR_START", "prob": 100 , "count": [ 1, 1 ] }
+    ]
+  }
+]

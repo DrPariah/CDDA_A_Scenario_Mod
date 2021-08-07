@@ -1,0 +1,869 @@
+[
+{
+    "id": "plot_mod_实验室中上",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室右下",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室右上",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室右上2",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室左下",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室左上",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室中下",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "plot_mod_实验室牢房",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_1",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_2",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_3",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_4",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_5",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "id": "plot_mod_实验室_6",
+  "type": "overmap_terrain",
+  "name": "名字待定",
+  "sym": "α",
+  "color": "i_red",
+  "see_cost": 5
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室牢房" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwwwwwwwwwwwwfffffw",
+      "wwwwwwwww7wwwww7wwwww?ww"
+    ],
+        "palettes": [ "调色板1" ]
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室左下" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wlffffffffffffffffffffff",
+      "wwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+        "palettes": [ "调色板1" ]
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室右上" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wwwwwwfffffffffffffffffw",
+      "fffff?fffffffffffffffffw",
+      "fffff?fffffffffffffffffw",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffw&&&&&&wffwwwwwwwww",
+      "fffffp&&&&&.:ffwwwwwwwww",
+      "fffffw&&&&&&wffwwwwwwwww",
+      "fffffD&&&&&&ww:wwwwwwwww",
+      "fffffw&&&&&&wwfwwwwwwwww",
+      "fffffp&&&&&&wwwwwwwwwwww",
+      "fffffp&&&&&&wwwwwwwwwwww",
+      "fffffw,&&&&&wwwwwwwwwwww",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffww{{!{{!{{!{{wwwwww",
+      "fffffww{f!{f!{f!{fwwwwww",
+      "fffffww{f!{f!{f!{fwwwwww",
+      "fffffww!?!!?!!?!!?wwwwww",
+      "fffffwwfffffffffffwwwwww",
+      "fffff77fffffffffffwwwwww",
+      "fffffCwf{{{ff{{{ffwwwwww",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffffffffffffffffffffw"
+    ],
+        "palettes": [ "调色板1" ]
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室右上2" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwww:ααααwwwwwwwwwwwww",
+      "wwwwww&&&&&αwwwwwwwwwwww",
+      "wwwwww[[[[&&αwwwwwwwwwww",
+      "wwwwww   [[&αwwwwwwwwwww",
+      "wwwwww    [&αwwwwwwwwwww",
+      "wwwwww   [[&αwwwwwwwwwww",
+      "wwwwww[[[[&&αwwwwwwwwwww",
+      "wwwwww@&&&&αwwwwwwwwwwww",
+      "wwwwwwwααααwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+        "palettes": [ "调色板1" ]
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室中下" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wfffffffffffffffffffffff",
+      "wfffffffffffffffffffffff",
+      "wfffffffffffffffffffffff",
+      "wwww€wwwwwwwwwwwwwwwwwww",
+      ";((βFδεεγwzzzzz^wfffff%w",
+      ";9FFFFFFFwzfffffDff<<f%w",
+      "w+FF==FFνwzzzzzfwff<<f)w",
+      "w+FF=$FFνwwwwwwwwff<<f_w",
+      ";/FF==FFνw%f^^fffff<<f_w",
+      ";/FFFFFFνw%fffffffffff)w",
+      "wWFξζζζFFw%``fffffffff^w",
+      "wwwwwwwwwwwwwww````wwwww",
+      "wffffflfffffffffflfffffw",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wfff><<>ff><<>ff><<>fffD",
+      "wffffflfffffffffflfffffD",
+      "wfff><<>ff><<>ff><<>fffD",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wfff><<>ff><<>ff><<>fffw",
+      "wffffflfffffffffflfffffw",
+      "wwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+        "palettes": [ "调色板1" ],
+        "terrain":{
+          "`": "t_thconc_floor",
+          "z": "t_thconc_floor",
+          "%": "t_thconc_floor",
+          "^": "t_thconc_floor",
+          ")": "t_thconc_floor",
+          "_": "t_thconc_floor"
+        },
+        "furniture":{
+          "`": "f_counter",
+          "z": "f_rack",
+          "%": "f_fridge",
+          "^": "f_trashcan",
+          ")": "f_sink",
+          "_": "f_oven"
+        }
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室右下" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "fffffffffffffffffffffffw",
+      "fffffffffffffffffffffffw",
+      "fffffffffffffffffffffffw",
+      "fffffwwwwwwwwwCwwwwwwwww",
+      "fffffw-VBLB-bF-Sw--OTD-w",
+      "fffffw-AB-B-b--Hw--NI--w",
+      "fffffw------wbcbw------w",
+      "fffffwK---------wwwCwbww",
+      "fffffwK-------r-c------w",
+      "fffffwK------rrrw------w",
+      "fffffw--------r-b-----Kw",
+      "fffffw-AB-B-----w-----Kw",
+      "fffffw-VBLB-----w-ERM-Kw",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffwwwwwwwwwwwwwwwwwww",
+      "fffffw!wsw!wevewevewwwww",
+      "fffffwdwfwdwe.ewe.ewwwww",
+      "fffffwfffffw..kw..kwwwww",
+      "fffffwwwdwwwwdwwwdwwwwww",
+      "fffffwl..h....aa..hw.eew",
+      "fffffwl...itti.....d..vw",
+      "fffffwl...itti.....wkeew",
+      "fffffC..........WWWwwwww",
+      "wwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+      "terrain": {
+      "w": "t_wall_metal",
+  "b": "t_ballistic_glass",
+  "-": "t_linoleum_white",
+  "c": "t_ballistic_door_glass_c",
+  "C": "t_door_metal_lab_c",
+  "r": "t_carpet_metal_red",
+  "A": "t_linoleum_white",
+  "D": "t_linoleum_white",
+  "d": "t_door_c",
+  "V": "t_linoleum_white",
+  "L": "t_linoleum_white",
+  "O": "t_linoleum_white",
+  "T": "t_linoleum_white",
+  "E": "t_linoleum_white",
+  "M": "t_linoleum_white",
+  "R": "t_linoleum_white",
+  "I": "t_linoleum_white",
+  "N": "t_linoleum_white",
+  "F": "t_linoleum_white",
+  "S": "t_linoleum_white",
+  "H": "t_linoleum_white",
+  "B": "t_linoleum_white",
+  "K": "t_linoleum_white",
+  "f": "t_thconc_floor",
+  "l": "t_floor",
+  ".": "t_floor",
+  "W": "t_floor",
+  "v": "t_floor",
+  "!": "t_thconc_floor",
+  "s": "t_thconc_floor",
+  "e": "t_floor",
+  "k": "t_floor",
+  "t": "t_floor",
+  "h": "t_floor",
+  "i": "t_floor",
+  "a": "t_floor"
+    },	      
+    "furniture": { 
+  "A": "f_anesthetic",
+  "D": "f_dialysis",
+  "V": "f_ventilator",
+  "L": "f_IV_pole",
+  "B": "f_bed",
+  "I": "f_scan_bed",
+  "O": "f_console",
+  "T": "f_CTscan",
+  "E": "f_metal_table",
+  "M": "f_chemical_mixer",
+  "R": "f_robotic_arm",
+  "N": "f_stool",
+  "F": "f_shower",
+  "H": "f_eyewash",
+  "S": "f_sink",
+  "s": "f_sink",
+  "K": "f_rack",
+  "l": "f_locker",
+  "W": "f_wardrobe",
+  "v": "f_dresser",
+  "!": "f_toilet",
+  "e": "f_bed",
+  "t": "f_table",
+  "k": "f_desk",
+  "h": "f_trashcan",
+  "i": "f_chair",
+  "a": "f_bookcase"
+  },
+  "toilets": {"!":{}}
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室中上" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wwwww-wwwwwwwwwwwwwwwwww",
+      "wRp|||Dffffffw433333333w",
+      "w#p|||Dffffffw4333rrrr3w",
+      "wwwwwwwwfffffw43rrr^^r3w",
+      "wwwwwwwwfffffw53r)`33r3w",
+      "wsff<ffwfffffw63r]33333D",
+      "wof><ffwfffffw53r}E33r3w",
+      "wsffwffwwfffww%3rrr^^r3w",
+      "ww;wwffww777ww%333rrrr3w",
+      "wifffffww777ww%33333333w",
+      "wHfffffwwfffwwwwwwwwwwww",
+      "wHfffffwfffffwqkjkwgkkgw",
+      "wHfvffXwfffffwwwwkwkkkkw",
+      "wwwwDwwwfffffwqkjkwgkkgw",
+      "wlfffffffffffwwwwkwkkkkw",
+      "7lfffffffffffwqkjkwgkkgw",
+      "wlfffffffffffwwwwkwpKKpw",
+      "wlfffffffffffwqkjkwkkkkw",
+      "wlfffffffffffwwwwkwkkkkw",
+      "wlfffffffffffwPkkkkkkkkw",
+      "wlfffffffffffwIkyYyYykhw",
+      "wlfffffffffffwwwwwwwwwww",
+      "wlfffffffffffffffffffffw"
+    ],
+        "palettes": [ "调色板1" ],
+        "terrain":
+        {
+          "3": "t_metal_floor_no_roof",
+          "4": "t_metal_floor_no_roof",
+          "5": "t_metal_floor_no_roof",
+          "6": "t_metal_floor_no_roof",
+          "%": "t_metal_floor_no_roof",
+          "^": "t_metal_floor_no_roof",
+          "r": "t_railing",
+          "`": "t_metal_floor_no_roof",
+          ")": "t_metal_floor_no_roof",
+          "]": "t_metal_floor_no_roof",
+          "}": "t_metal_floor_no_roof",
+          "E": "t_metal_floor_no_roof",
+          "q": "t_linoleum_white",
+          "P": "t_linoleum_white",
+          "I": "t_linoleum_white",
+          "y": "t_linoleum_white",
+          "Y": "t_linoleum_white",
+          "h": "t_linoleum_white",
+          "g": "t_linoleum_white",
+          "j": "t_door_metal_c",
+          "k": "t_linoleum_white",
+          "K": "t_reinforced_door_glass_c"
+        },
+        "furniture":
+        {
+          "4": "f_rack",
+          "5": "f_filing_cabinet",
+          "6": "f_warehouse_shelf",
+          "%": "f_utility_shelf",
+          "^": "f_locker",
+          "`": "f_router",
+          ")": "f_bandsaw",
+          "]": "f_mitresaw",
+          "}": "f_hydraulic_press",
+          "E": "f_arc_furnace",
+          "q": "f_toilet",
+          "P": "f_water_heater",
+          "I": "f_indoor_plant",
+          "y": "f_sink",
+          "Y": "f_counter",
+          "h": "f_trashcan",
+          "g": "f_shower"
+        },
+        "toilets": { "q":{} }
+  }
+},
+{
+  "type": "mapgen",
+  "method": "json",
+  "om_terrain": [ "plot_mod_实验室左上" ],
+  "weight": 100,
+  "object": {
+    "rows": [
+      "wwwwwwwwwwwwwwwwwwwwwwww",
+      "wFFF31FF1FF1FwFl#lFFgggF",
+      "wFFF333333333wFFcFFFFFFF",
+      "wFFFFFFFFFFFFwFFFFFFFFFF",
+      "wFFFFFFFFFFFF;FFFFFFFFFR",
+      "w5FFFF2####2F;FleqolFFFR",
+      "w6FFFF2F$$F2F;FFF!FGFFFR",
+      "wFFFFF2FFF$2F;FFF!FGFFFR",
+      "wFFFFFFFFFFFFwFlllllFFFF",
+      "wFFFFFFFFFFFFwFFFFFFFFFF",
+      "w&98FFFFFFFFFDFFFFFFFFFF",
+      "w890FFFFFFFFFwFFFFFFFFFF",
+      "wwwwwwwwwDwwwwwwwww33333",
+      "wrrrrrffffffmmmmmpwFFFFH",
+      "wffffffffffffcccffwWFFFE",
+      "wfffccffffffffffffwAFFFE",
+      "wfffmmmmmcffffffffwFFFFF",
+      "wfffmmmmmcffffffffwwwwww",
+      "wfffcffcfffffffffffhaSff",
+      "wffffffffftCCCtfffffffff",
+      "ww77wwffffffffffffffffff",
+      "wfffswfffftccftfffffffff",
+      "wfffswfffftttttfffffffff",
+      "wwBwwwbbbbbbbbbbbbbwwwww"
+    ],
+        "terrain":
+        {
+          "3": "t_laminated_glass",
+          "4": "t_door_glass_frosted_lab_c",
+          "D": [ "t_door_metal_lab_c" ],
+          "w": [ "t_wall_metal" ],
+          "f": [ "t_metal_floor" ],
+          "F": [ "t_linoleum_white" ],
+          "b": [ "t_ballistic_glass" ],
+          "B": [ "t_door_metal_bulkhead_c" ],
+          "7": [ "t_door_metal_locked" ],
+          "m": [ "t_metal_floor" ],
+          "c": [ "t_metal_floor" ],
+          "C": [ "t_metal_floor" ],
+          "t": [ "t_metal_floor" ],
+          "r": [ "t_metal_floor" ],
+          "p": [ "t_metal_floor" ],
+          "h": [ "t_metal_floor" ],
+          "a": [ "t_metal_floor" ],
+          "s": [ "t_metal_floor" ],
+          "S": [ "t_switchgear_l" ],
+          ";": [ "t_reinforced_glass_shutter" ],
+          "1": [ "t_vat" ],
+          "2": [ "t_linoleum_white" ],
+          "#": [ "t_linoleum_white" ],
+          "$": [ "t_linoleum_white" ],
+          "5": [ "t_linoleum_white" ],
+          "6": [ "t_linoleum_white" ],
+          "&": [ "t_linoleum_white" ],
+          "8": [ "t_linoleum_white" ],
+          "9": [ "t_linoleum_white" ],
+          "0": [ "t_linoleum_white" ],
+          "l": [ "t_linoleum_white" ],
+          "g": [ "t_linoleum_white" ],
+          "R": [ "t_linoleum_white" ],
+          "e": [ "t_linoleum_white" ],
+          "q": [ "t_linoleum_white" ],
+          "o": [ "t_linoleum_white" ],
+          "G": [ "t_linoleum_white" ],
+          "W": [ "t_linoleum_white" ],
+          "A": [ "t_linoleum_white" ],
+          "H": [ "t_linoleum_white" ],
+          "E": [ "t_linoleum_white" ],
+          "!": [ "t_linoleum_white" ]
+        },
+        "furniture":
+        {
+          "m": [ "f_metal_table" ],
+          "c": [ "f_chair" ],
+          "C": [ "f_console" ],
+          "t": [ "f_table" ],
+          "r": [ "f_rack" ],
+          "p": [ "f_indoor_plant" ],
+          "h": [ "f_machinery_heavy" ],
+          "a": [ "f_capacitor" ],
+          "s": [ "f_sign_warning" ],
+          "2": [ "f_metal_table" ],
+          "#": [ "f_console" ],
+          "$": [ "f_chair" ],
+          "5": [ "f_air_filter" ],
+          "6": [ "f_capacitor" ],
+          "&": [ "f_ventilator" ],
+          "8": [ "f_IV_pole" ],
+          "9": [ "f_bed" ],
+          "0": [ "f_anesthetic" ],
+          "l": [ "f_lab_bench" ],
+          "g": [ "f_glass_fridge" ],
+          "R": [ "f_rack" ],
+          "e": [ "f_centrifuge" ],
+          "q": [ "f_electron_microscope" ],
+          "o": [ "f_GC" ],
+          "G": [ "f_glass_cabinet" ],
+          "W": [ "f_washer" ],
+          "A": [ "f_autoclave" ],
+          "H": [ "f_shaker" ],
+          "E": [ "f_eyewash" ],
+          "!": [ "f_stool" ]
+        },
+        "place_item":
+        [
+          { "item": "leg", "x": 2, "y":10, "amount": 1 },
+          { "item": "fetus", "x": 5, "y":1, "amount": 1 },
+          { "item": "human_brain_embalmed", "x": 8, "y":1, "amount": 1 },
+          { "item": "fluid_preserved_brain", "x": 8, "y":1, "amount": 1 },
+          { "item": "leg", "x": 11, "y":1, "amount": 1 },
+          { "item": "fluid_preserved_brain", "x": 11, "y":1, "amount": 1 },
+          { "item": "mutant_meat", "x": 19, "y":6, "amount": 1 },
+          { "item": "mutant_bug_organs", "x": 19, "y":7, "amount": 1 }
+        ]
+      }
+},
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_1" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_2" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_3" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_4" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_5" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "plot_mod_实验室_6" ],
+    "weight": 100,
+    "object": {
+      "rows": [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wffffffffffffffffffffffw",
+        "wwwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+       "terrain": 
+	  {
+        "w": "t_wall_metal",
+		"f": "t_thconc_floor"
+      },	      
+      "furniture": 
+	  { 
+	  "A": "f_anesthetic"
+	  }
+    }
+  }
+]

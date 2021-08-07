@@ -1,0 +1,143 @@
+[
+  {
+    "type": "mutation",
+    "id": "NARRATOR_CLAIRVOYANCE",
+    "name": { "str": "旁白用透视" },
+    "points": 99,
+    "valid": false,
+    "player_display": false,
+    "description": "旁白用透视",
+    "flags": [ "CLAIRVOYANCE" ]
+  },
+  {
+    "id": "NPC_first_met",
+    "type": "mutation",
+    "name": { "str": "已初次见面" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "已初次见面",
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase1",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：1" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：1",
+    "cancels": [ "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase2",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：2" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：2",
+    "cancels": [ "NPC_phase1", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase3",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：3" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：3",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase4",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：4" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：4",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase5",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：5" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：5",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase6",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：6" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：6",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase7", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase7",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：7" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：7",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase8", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase8",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：8" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：8",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase9", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase9",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：9" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：9",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase10" ],
+    "player_display": false
+  },
+  {
+    "id": "NPC_phase10",
+    "type": "mutation",
+    "name": { "str": "剧情阶段：10" },
+    "points": 0,
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "description": "剧情阶段：10",
+    "cancels": [ "NPC_phase1", "NPC_phase2", "NPC_phase3", "NPC_phase4", "NPC_phase5", "NPC_phase6", "NPC_phase7", "NPC_phase8", "NPC_phase9" ],
+    "player_display": false
+  }
+]

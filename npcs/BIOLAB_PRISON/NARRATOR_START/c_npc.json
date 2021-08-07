@@ -1,0 +1,13 @@
+[
+  {
+    "type": "npc",
+    "id": "NARRATOR_START",
+    "name_unique": "",
+    "name_suffix": "旁白",
+    "gender": "male",
+    "class": "NC_NARRATOR",
+    "attitude": 1,
+    "mission": 7,
+    "chat": "TALK_NARRATOR_START1"
+  }
+]

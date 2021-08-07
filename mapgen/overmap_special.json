@@ -1,0 +1,31 @@
+[
+
+  {
+      "type": "overmap_special",
+      "id": "实验室",
+      "overmaps": [
+        { "point": [ 0, 0, 0 ], "overmap": "plot_mod_实验室中上_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "plot_mod_实验室_4_north" },
+      { "point": [ 0, -1, -1 ], "overmap": "plot_mod_实验室_5_north" },
+      { "point": [ 0, -2, -1 ], "overmap": "plot_mod_实验室_6_north" },
+        { "point": [ 1, 0, 0 ], "overmap": "plot_mod_实验室右上_north" },
+        { "point": [ 1, 0, 1 ], "overmap": "plot_mod_实验室右上2_north" },
+        { "point": [ 0, 1, 0 ], "overmap": "plot_mod_实验室中下_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "plot_mod_实验室_2_north" },
+        { "point": [ 1, 1, 0 ], "overmap": "plot_mod_实验室右下_north" },
+        { "point": [ -1, 0, 0 ], "overmap": "plot_mod_实验室左上_north" },
+      { "point": [ -1, 0, -1 ], "overmap": "plot_mod_实验室_3_north" },
+        { "point": [ -1, 1, 0 ], "overmap": "plot_mod_实验室左下_north" },
+      { "point": [ -1, 1, -1 ], "overmap": "plot_mod_实验室_1_north" },
+        { "point": [ 1, -1, 0 ], "overmap": "plot_mod_实验室牢房_north" }
+      
+      ],
+      "locations": [ "wilderness","forest" ],
+      "city_distance": [ 10, 5 ],
+      "city_sizes": [ 3, 12 ],
+      "occurrences": [ 20, 20 ],
+      "flags": [ "CLASSIC" ],
+      "rotate" : true
+  }
+  
+  ]
