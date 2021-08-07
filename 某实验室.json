@@ -11,7 +11,8 @@
       { "point": [ -1, 0, 0 ], "overmap": "实验室左上_north" },
       { "point": [ -1, 1, 0 ], "overmap": "实验室左下_north" },
       { "point": [ 1, -1, 0 ], "overmap": "实验室牢房_north" },
-      { "point": [ 1, 1, -1 ], "overmap": "实验室右下0_north" }
+      { "point": [ 1, 1, -1 ], "overmap": "实验室右下0_north" },
+        { "point": [ 0, 1, -1 ], "overmap": "实验室中下0_north" }
     ],
     "locations": [ "wilderness","forest" ],
     "city_distance": [ 10, 5 ],
@@ -78,6 +79,14 @@
 },
 {
     "id": "实验室中下",
+    "type": "overmap_terrain",
+    "name": "名字待定",
+    "sym": "α",
+    "color": "i_red",
+    "see_cost": 5
+},
+{
+    "id": "实验室中下0",
     "type": "overmap_terrain",
     "name": "名字待定",
     "sym": "α",
@@ -751,6 +760,43 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": ["实验室右下0"],
+    "weight": 100,
+    "object": 
+    {
+      "rows": 
+      [
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww",
+        "wwwwwwwwwwwwwwwwwwwwwwww"
+      ],
+      "palettes": [ "地下车库" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": ["实验室中下0"],
     "weight": 100,
     "object": 
     {
