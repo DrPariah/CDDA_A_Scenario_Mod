@@ -1,0 +1,11 @@
+[
+	{
+		"type": "MOD_INFO",
+		"ident": "名字待定",
+		"category": "other",
+		"name": "名字待定",
+		"authors": ["这么多人我懒得一个个写出来"],
+		"description": "当前版本: 暴力搜索法.0.1",
+		"dependencies": [ "dda" ]
+	}
+]

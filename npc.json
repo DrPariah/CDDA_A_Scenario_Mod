@@ -1,0 +1,77 @@
+[
+    {
+        "type" : "npc",
+        "id" : "SM_woer",
+        "name_unique": "Someone",
+        "gender": "male",
+        "name_suffix": "boss",
+        "class": "SM_BANDIT_HEADER_CLASS",
+        "attitude": 0,
+        "mission": 7,
+        "chat": "TALK_TEST_1"
+    },
+    {
+        "type": "npc_class",
+        "id": "SM_BANDIT_HEADER_CLASS",
+        "name": {"str": "boss"},
+        "job_description": "boss",
+        "common": false,
+        "worn_override": "SW_BANDIT_HEADER_worn",
+        "carry_override": "EMPTY_GROUP",
+        "weapon_override": "EMPTY_GROUP",
+        "traits": [
+            { "trait": "hair_blond_short" },
+            { "trait": "SKIN_LIGHT" }
+          ]
+    },
+    {
+        "type": "item_group",
+        "id": "SW_BANDIT_HEADER_worn",
+        "subtype": "collection",
+        "items": [
+          { "item": "long_underpants" },
+          { "item": "pants_army" },
+          { "item": "jacket_army" },
+          { "item": "thigh_high_boots" },
+          { "item": "fancy_sunglasses" },
+          { "item": "gloves_survivor_fingerless" }
+        ]
+    },
+    {
+        "type": "mapgen",
+        "method": "json",
+        "nested_mapgen_id": "test_place_1",
+        "object": {
+          "mapgensize": [ 2, 2 ],
+          "rows": [
+            "  ",
+            " ."
+          ],
+          "terrain": { ".": "t_thconc_floor" },
+          "place_npcs": [ { "class": "SM_woer", "x": 1, "y": 1 } ]
+        }
+    },
+    {
+        "type" : "talk_topic",
+        "id" : "TALK_TEST_1",
+        "dynamic_line" : 
+            {
+                "npc_female": 
+                {
+                    "u_female": ["bye","guy"],
+                    "no": {
+                        "and": [
+                            "hello", " ", "world!"
+                        ]
+                    }
+                },
+                "no" : "gan"
+            },
+        "responses" : [
+            {
+                "text" : "i dont know.",
+                "topic" : "TALK_TEST_2"
+            }
+        ]
+    }
+]
